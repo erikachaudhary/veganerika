@@ -7,10 +7,10 @@
   </button>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="text landing link" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
     <% if user_signed_in? %>
-        <li class="nav-item active">
+        <li class="text landing link">
           <%= link_to "Home", "#", class: "nav-link" %>
         </li>
         <li class="nav-item">
@@ -26,16 +26,16 @@
         </li>
      
       <% else %>
-        <li class="nav-item">
+        <li class="text landing link">
         <li><%= link_to "about", about_path %></li>
         
-        <li class="nav-item">
+        <li class="text landing link">
         <li><%= link_to "webdevelopment", webdevelopment_path %></li>
        
-        <li class="nav-item">
+        <li class="text landing link">
         <li><%= link_to "blog", blog_path %></li>
       
-        <li class="nav-item">
+        <li class="text landing link">
         <li><%= link_to "contact", contact_path %></li>
 
       <li class="nav-item dropdown">

@@ -1,0 +1,19 @@
+.button-purple{
+    z-index: 99999;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    border: #FFFDFD 2px solid;
+    border-radius: 50px;
+    color: #fcfafa !important;
+    text-decoration: none !important;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.4s;
+    background-color: #9edcf5;
+  }
+.button:hoover {
+    background-color: rgb(102, 71, 241);
+}

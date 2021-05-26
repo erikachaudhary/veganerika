@@ -1,0 +1,30 @@
+.card-container2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background: #FFFDFD;
+  }
+  
+  .card-container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 135vh;
+    background: #FFFDFD;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 40%;
+  }
+
+  .card-container1 {
+    display:flex;
+    justify-content: space-between;
+  }
+  

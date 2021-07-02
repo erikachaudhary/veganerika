@@ -1,12 +1,12 @@
-.button-purple{
+.button {
     z-index: 99999;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 18px;
     text-align: center;
     border: #FFFDFD 2px solid;
-    border-radius: 50px;
-    color: #fcfafa !important;
+    border-radius: 60px;
+    color: #2e2a2a !important;
     text-decoration: none !important;
     width: 250px;
     padding-top: 10px;
@@ -15,5 +15,5 @@
     background-color: #9edcf5;
   }
 .button:hoover {
-    background-color: rgb(102, 71, 241);
+    background-color: rgb(161, 203, 238);
 }

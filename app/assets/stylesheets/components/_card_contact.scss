@@ -66,11 +66,9 @@
     height: 100%;
     width:100%;
     background: linear-gradient(90deg);
-    opacity: 0.8;
     border-radius: 8px;
-    box-shadow: 6px 6px 10px lightgrey;
   }
-  
+
   .card-wrapper {
     display: flex;
     flex-direction: column;
@@ -177,7 +175,7 @@
   
   .text-description {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     text-align: left;
     color: #4F4F4F;

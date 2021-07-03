@@ -1,7 +1,12 @@
-.card-container2 {
-    position: relative;
+.container {
+  background-color: white;
+}
+
+
+.card-container1 {
+    position: left;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-around;
     height: 100vh;
     background: #FFFDFD;
@@ -16,7 +21,7 @@
     background: #FFFDFD;
   }
   
-  .card-wrapper {
+  .container-wrapper {
     display: flex;
     flex-direction: column;
     height: 60%;
@@ -27,4 +32,4 @@
     display:flex;
     justify-content: space-between;
   }
-  
+ 

@@ -1,7 +1,14 @@
-.container {
+.main-container {
+  display: flex;
   background-color: white;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex: grow 1;
+  align-items: center;
+}
 
 .card-container1 {
     position: left;
@@ -31,5 +38,27 @@
   .card-container1 {
     display:flex;
     justify-content: space-between;
+  }
+
+  body {
+    font-family:'Open Sans', sans-serif;
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+  
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+  }
+
+  h2,h3,h4,h5,h6 {
+      font-family: 'Open Sans', sans-serif;
+  }
+  p {
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: light;
   }
  
